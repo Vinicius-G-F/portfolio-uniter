@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+      lugar aonde eu estou importando os arquivos com código css
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/contato.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Contato</title>
+</head>
+<body>
+    <!--
+      Cabeçalho com links de navegação
+    -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Sobre mim</a></li>
+                <li><a href="../pages/formacoes.html">Formações</a></li>
+                <li><a href="../pages/projetos.html">Projetos</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <!--
+        Seção aonde eu deixei algumas informações para contato
+      -->
+        <section id="contato">
+          <h1>Informações para Contato</h1>
+          <p>Se você deseja entrar em contato comigo, aqui estão minhas informações:</p>
+          <div class="contact-info">
+            <h2>Telefone</h2>
+            <p><a href="tel:+5522998911117">(22) 99891-1117</a></p>
+            <h2>Email</h2>
+            <p><a href="mailto:vinicius--dev@outlook.com">vinicius--dev@outlook.com</a></p>
+          </div>
+          <div class="social-media">
+            <h2>Redes Sociais</h2>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/vinicius-full-stack-js/l" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/Vinicius-G-F" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+          Formulário fale comigo, obviamente não funciona
+        -->
+        <section id="fale-comigo">
+          <h2 class="titulo">Fale Comigo:</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Assunto:</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="button">Enviar</button>
+          </form>
+        </section>
+      </main>
+      <!--
+        Um rodapé bem simples para a página
+      -->
+    <footer>
+        <p>&copy; 2024 Vinícius Graciano Faria</p>
+    </footer>
+    
+</body>
+</html>
